@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget_wizard</class>
+ <widget class="QWidget" name="widget_wizard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1072</width>
+    <height>592</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1072</width>
+    <height>592</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ようこそ</string>
+  </property>
+  <widget class="QListView" name="listview_recent_proj_hist">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>270</y>
+     <width>361</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_create_new_project">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>191</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新しいプロジェクト</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_open_existing_proj">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>360</y>
+     <width>191</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>プロジェクトを開く...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="btn_clear_recent_proj_hist">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>220</y>
+     <width>81</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>クリア</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title_welcome">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>81</y>
+     <width>1071</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>messimg へようこそ</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_welcome_desc">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>1071</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Android ROM の編集ツール</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title_recent_proj_hist">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>230</y>
+     <width>221</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>最近のプロジェクト：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title_help">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>250</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ヘルプ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_clickable_open_homepage">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>290</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>ホームページを開く</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_clickable_open_handbook">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>330</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>ハンドブックを読む</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

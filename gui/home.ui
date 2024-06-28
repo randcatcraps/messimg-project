@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_home</class>
+ <widget class="QMainWindow" name="window_home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>652</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1072</width>
+    <height>652</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1072</width>
+    <height>652</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>messimg</string>
+  </property>
+  <widget class="QWidget" name="root"/>
+  <widget class="QMenuBar" name="bar_menu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1072</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_close_proj">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>プロジェクトを閉じる</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_open_proj_dir">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>フォルダを表示</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_abt">
+    <property name="title">
+     <string>このアプリについて</string>
+    </property>
+   </widget>
+   <addaction name="menu_close_proj"/>
+   <addaction name="menu_open_proj_dir"/>
+   <addaction name="menu_abt"/>
+  </widget>
+  <widget class="QStatusBar" name="bar_status">
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

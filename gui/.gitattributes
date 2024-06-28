@@ -1,0 +1,4 @@
+# uic
+_*.py linguist-generated=true
+# exclude specials
+__*.py linguist-generated=false
